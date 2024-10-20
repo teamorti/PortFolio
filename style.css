@@ -84,7 +84,7 @@ nav{
     font-size: 200px;
     background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
     background-position: 40% 50%;
-    -webkit-background-clip: text;
+    background-clip: text;
     position:relative;
     text-align:left;
     line-height:200px;
@@ -243,3 +243,32 @@ h4{
     margin-top: 0px;
     padding-right: 90px;
 }   
+#contact {
+        text-align: left!important;
+        font-weight: 100;
+        color: wheat;
+        margin-left: var(--left);
+        font-size: var(--taille);
+        text-transform: uppercase;
+}
+#contacter{
+    color: wheat;
+    margin-left: var(--left);
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Space Mono", monospace;
+}
+button{
+    margin-left: var(--left);
+}
+footer{
+    margin-top: 100px;
+    color: wheat;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Space Mono", monospace;
+}
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lobster&family=Oxanium:wght@200..800&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet" 
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lobster&family=Markazi+Text:wght@400..700&family=Oxanium:wght@200..800&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <p id="portfolio">Mon portfolio</p>
+        <nav>
+          <a href="index.html">Accueil</a>
+          <a href="index.html#projets">Projets</a>
+          <a href="index.html#profil">A propos</a>
+          <a href="index.html#imgcomp">Competences</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulaire De Contact</h1>
+        <form  action="https://formspree.io/f/mdkokkno" method="post"></form>
+
+        <label for="nom">Nom :</label>
+        <input class="form" type="text" id="nom" name="nom" required><br><br>
+
+        <label for="email">Email :</label>
+        <input class="form" type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Votre message :</label><br>
+        <textarea class="form" id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <input id="bouton" type="submit" value="Envoyer">
+        
+
+    </main>
+    
+</body>
+</html>

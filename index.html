@@ -30,11 +30,11 @@
     <header>
       <p id="portfolio">Mon portfolio</p>
       <nav>
-        <a href="#accueil">Accueil</a>
+        <a href="#portfolio">Accueil</a>
         <a href="#projets">Projets</a>
-        <a href="#propos">A propos</a>
-        <a href="#competences">Competences</a>
-        <a href="contact">Contact</a>
+        <a href="#profil">A propos</a>
+        <a href="#imgcomp">Competences</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <main>
@@ -49,12 +49,12 @@
           Bienvenue sur mon portfolio en ligne créé par mes soins. Vous découvrirez ici qui je suis, mes projets, mes compétences et mes passions en tant que développeur.
         </p>
         <div id="bouton">
-          <button type="button">En Savoir plus</button>
+          <button onclick=window.location.href="#contact">En Savoir plus</button >
         </div>
       </section>
       <section>
         <h3>Mes Projets</h3>
-        <div class="projets">
+        <div id="projets" class="projets">
           <img src="image/Projet1.png" alt="projet 1">
           <img src="image/Projet2.png" alt="projet 2">
           <img src="image/Projet3.png" alt="projet 3">
@@ -90,7 +90,7 @@
           
           </div>
     </div>
-    <div class="Competences">
+    <div  class="Competences">
       <h2>Compétences</h2>
 
       <div id="imgcomp">
@@ -106,9 +106,17 @@
       </div>
       </div>
     </div>
-      </section>
+  </section>
+      <h2 id="contact">Contactez-moi</h2>
+      <p id="contacter">Si vous souhaitez me contacter pour des questions ou autres, n'hésitez pas a me contacter.</p>
+      <button id="bouton-contact" onclick=window.location.href="Contact.html">Contacter-Moi</button>
+    </section>
     </main>
+   
 
-    <footer></footer>
+    <footer>
+
+      <p>ⓒ 2024 - Mon Portfolio - Tout droit réservés.</p>
+    </footer>
   </body>
 </html>
